@@ -6,102 +6,139 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="VRose,cv,resume">
   <meta name="description" content="Это сайт-резюме Воронцовой Розы">
+  <link rel="stylesheet" href="styles.css ">
   <title>VRoza-resume</title>
 </head>
 <body>
 
-  <img src="AVA.jpg" alt="Воронцова Роза " width="200">
+  <div class="container">
 
-  <h1>Воронцова Роза</h1>
+    <div class="info">
 
-  <p>
-    Меня зовут Роза, мне 31 год. Я замужем. Окончила <strong>РИИ АлтГТУ</strong>направление
-    <strong>ТМО</strong> по профилю <strong>"Машины и аппапраты пищевых проиводств".</strong>
-    Я изучаю курс <strong>"HTML & CSS"</strong>, хoчу освоить специальность <strong>FrontEnd-разработчик.</strong>
-  </p>
+     <img src="AVA.jpg" alt="Воронцова Роза " class="avatar">
 
-  <p>
-    Из моих увлечений можно перечислить <em>просмотр сериалов и фильмов</em>,
-    иногда <em>NBA</em>. Люблю <em>играть в настольный теннис</em> и <em>бeг</em> по пересеченной местности.
-  </p>
+      <div class="info-text">
 
-  <h4>Список социальных сетей:</h4>
+          <h1>Воронцова Роза</h1>
 
-  <a href="https://vk.com/rozavorontsova" target="blank">Вконтакте</a>
-  |
-  <a href="" target="blank">Telegram</a>
-  |
-  <a href="" target="blank">Insta</a>
+          <p>
+          Меня зовут Роза, мне 31 год. Я замужем. Окончила <strong>РИИ АлтГТУ</strong>направление
+          <strong>ТМО</strong> по профилю <strong>"Машины и аппапраты пищевых проиводств".</strong>
+          Я изучаю курс <strong>"HTML & CSS"</strong>, хoчу освоить специальность <strong>FrontEnd-разработчик.</strong>
+          </p>
 
+          <p>
+          Из моих увлечений можно перечислить <em>просмотр сериалов и фильмов</em>,
+          иногда <em>NBA</em>. Люблю <em>играть в настольный теннис</em> и <em>бeг</em> по пересеченной местности.
+          </p>
 
-  <h2>Мои хобби:</h2>
+          <h4>Список социальных сетей:</h4>
 
-  <ol>
-    <li>Сериалы и фильмы</li>
-    <li>NBA</li>
-    <li>Настольный теннис</li>
-    <li>Бег</li>
-  </ol>
+        <a href="https://vk.com/rozavorontsova" target="blank">Вконтакте</a>
 
+        <!--на данный момент проблемы с паролем-->
+       | <a href="" target="blank">Telegram</a>
+        <!-- проблемы с VPN -->
+       | <a href="" target="blank">Instagram</a>
 
-  <h2>Опыт работы</h2>
+      </div>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Название</th>
-        <th>Должность</th>
-        <th>Год</th>
-      </tr>
-    </thead>
-    <tdody>
-      <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-      </tr>
-       <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-      </tr>
-       <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-      </tr>
-       <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-      </tr>
-    </tdody>
-  </table>
-
-
-   <h2>Связаться со мной</h2>
-
-   <form action="">
-
-     <div>
-      <ladel for="name">Ваше имя:</ladel>
-      <input type="text" id="name" placeholder="Введите имя">
     </div>
 
-    <div>
-      <ladel for="email">Ваш email:</ladel>
-      <input type="email" id="email" placeholder="Введите email">
+    <div class="card br-mistyrose">
+
+      <h2>Мои хобби:</h2>
+
+      <ol class="list">
+          <li>Сериалы и фильмы</li>
+          <li>NBA</li>
+          <li>Настольный теннис</li>
+          <li>Бег</li>
+        </ol>
+
     </div>
 
-    <div>
-      <ladel for="message">Ваше сообщение:</ladel>
-      <br>
-      <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+    <div class="card br-lavender">
+
+      <h2>Опыт работы</h2>
+
+        <table  class="table">
+          <thead>
+            <!-- <tr>
+              <th>Название</th>
+              <th>Должность</th>
+              <th>Год</th>
+            </tr> -->
+          </thead>
+          <tdody>
+            <tr>
+              <td>Отсутствует</td>
+              <td>Отсутствует</td>
+              <td>Отсутствует</td>
+            </tr>
+            <tr>
+              <td>Отсутствует</td>
+              <td>Отсутствует</td>
+              <td>Отсутствует</td>
+            </tr>
+            <tr>
+              <td>Отсутствует</td>
+              <td>Отсутствует</td>
+              <td>Отсутствует</td>
+            </tr>
+            <tr>
+              <td>Отсутствует</td>
+              <td>Отсутствует</td>
+              <td>Отсутствует</td>
+            </tr>
+          </tdody>
+        </table>
+
     </div>
 
-    <button type="submit">Отправить!</button>
+    <div class="card br-lavenderblush">
 
-    </form>
+        <h2>Курсы</h2>
+
+        <ul class="link-list">
+          <li>HTML&CSS</li>
+          <li>Junior Frontend Developer</li>
+        </ul>
+
+    </div>
+
+    <div class="connection">
+
+      <h2 class="center">Связаться со мной</h2>
+
+      <form action="">
+
+        <div>
+
+          <div class="form">
+            <ladel class="form-label" for="name">Ваше имя:</ladel>
+            <input class="form-input" type="text" id="name" placeholder="Введите имя">
+          </div>
+
+          <div class="form">
+            <ladel class="form-label" for="email">Ваш email:</ladel>
+            <input class="form-input" type="email" id="email" placeholder="Введите email">
+          </div>
+
+        </div>
+
+      <div>
+        <ladel class="form-label"  for="message">Ваше сообщение:</ladel>
+        <textarea class="form-texterea" id="message" cols="5" rows="5" placeholder="Введите сообщение..."></textarea>
+      </div>
+
+      <button type="submit" class="btn">Отправить!</button>
+
+      </form>
+
+    </div>
+
+  </div>
 
 </body>
 </html>
